@@ -1,0 +1,33 @@
+body{
+  background-color: #797979;
+}
+.main{
+  display: grid;
+  place-items: center;
+}
+.container{
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: row;
+}
+.editor{
+  margin-right: 1rem;
+}
+button{
+  color: white;
+  background-color: teal;
+  border:none;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  padding: 0.5rem 1rem;
+}
+button:hover{
+  font-weight: bolder;
+  background-color: rgb(4, 167, 167);
+}
+h3{
+  color: white;
+}
+h2{
+  color: white;
+}
